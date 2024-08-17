@@ -793,3 +793,357 @@ select > option {
   margin-top: 25px;
   margin-bottom: 30px;
 }
+@media screen and (max-width: 576px) {
+  body {
+    width: 375px;
+    height: 100%;
+    background: rgb(0, 0, 0);
+  }
+
+  .navigation {
+    display: none;
+  }
+  .big-texts {
+    width: 285px;
+    height: 129px;
+    font-size: 36px;
+    text-align: left;
+  }
+  .hero-section {
+    flex-direction: column;
+    margin: 0px auto;
+  }
+  .hero2 {
+    width: 350px;
+    height: 550px;
+    margin-left: -13px;
+    margin-top: 0px;
+  }
+  .click {
+    width: 137px;
+    height: 45px;
+    font-size: 12px;
+    padding: 16px 20px 16px 20px;
+    margin-left: 18px;
+  }
+  .click1 {
+    width: 137px;
+    height: 45px;
+    font-size: 12px;
+    padding: 16px 20px 16px 20px;
+    margin-left: 170px;
+    margin-top: -70px;
+  }
+  .background {
+    width: 314.8px;
+    height: 1024px;
+    background: linear-gradient(
+      180deg,
+      rgb(17, 17, 17),
+      rgba(119, 119, 119, 0) 100%
+    );
+    margin-bottom: 100px;
+  }
+  .headername {
+    width: 132px;
+    height: 43px;
+    font-size: 30px;
+    line-height: 120%;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .big-texts {
+    width: 250px;
+    height: 110px;
+    font-size: 28px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .custom-font {
+    font-size: 70px;
+    text-align: left;
+  }
+  .description {
+    width: 250px;
+    height: 80px;
+    font-size: 13px;
+    margin-left: 20px;
+    margin-top: -10px;
+  }
+  .card2 {
+    width: 120px;
+    height: 55px;
+    align-items: center;
+  }
+  .number1 {
+    width: 70px;
+    height: 24px;
+    font-size: 20px;
+    margin-top: 7px;
+    margin-right: 50px;
+  }
+  .number1-des {
+    width: 99px;
+    height: 10px;
+    font-size: 8.5px;
+  }
+  .card-flex {
+    width: 120px;
+    height: 55px;
+    margin-left: 20px;
+    align-items: center;
+  }
+  .number {
+    width: 45px;
+    height: 15px;
+    font-size: 14px;
+    margin-top: -25px;
+    margin-right: 30px;
+  }
+  .number-des {
+    width: 75px;
+    height: 15px;
+    font-size: 10px;
+  }
+  .circle {
+    width: 23px;
+    height: 23px;
+    margin-top: 0px;
+  }
+  .title {
+    width: 290px;
+    height: 30px;
+    font-size: 29px;
+    margin: 0px auto;
+    margin-left: 24px;
+  }
+  .title-des {
+    width: 250px;
+    height: 68px;
+    font-size: 10px;
+    margin: 0px auto;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .image-flex {
+    flex-direction: column;
+    margin-left: 55px;
+  }
+  .page-flex {
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    margin-left: 8px;
+    margin-top: 20px;
+  }
+  .big-text1 {
+    width: 250px;
+    height: 70px;
+    font-size: 29px;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+  .big-textdes {
+    width: 270px;
+    height: 88px;
+    font-size: 10px;
+    margin-left: 20px;
+  }
+  .join-now {
+    width: 275px;
+    height: 48px;
+    padding: 16px 20px 16px 20px;
+    margin-left: 15px;
+    margin-bottom: 18px;
+  }
+  .run-radius {
+    width: 275px;
+    height: 160px;
+    margin-left: 13px;
+  }
+  .training-texts1 {
+    width: 210px;
+    height: 30px;
+    font-size: 28px;
+    margin-left: 20px;
+  }
+  .training-des1 {
+    width: 300px;
+    height: 68px;
+    font-size: 12px;
+    margin-left: 20px;
+  }
+  .calculator-text {
+    width: 162px;
+    height: 15px;
+    font-size: 16px;
+    margin-left: 8.5px;
+    margin-top: 50px;
+  }
+  .whole-sec {
+    width: 315.5px;
+    height: 770px;
+  }
+  .bmi-calculator {
+    flex-direction: column;
+  }
+  .chart {
+    width: 273px;
+    height: 180px;
+    margin-left: 8.5px;
+  }
+  .second-calculation {
+    width: 162px;
+    height: 15px;
+    font-size: 16px;
+
+    margin-left: 0px;
+  }
+  .calculation-des {
+    width: 300px;
+    height: 68px;
+    font-size: 12px;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .h-w-flex > input {
+    width: 80px;
+    height: 35px;
+    padding: ;
+    margin-left: -7px;
+    margin-right: 1px;
+  }
+  .s-a-flex > input {
+    width: 80px;
+    height: 35px;
+    margin-left: -7px;
+    margin-right: 7px;
+  }
+  .s-a-flex > select {
+    width: 141px;
+    height: 58px;
+    margin-left: -7px;
+  }
+  .activity {
+    width: 290px;
+    height: 58px;
+    margin-left: -9.5px;
+  }
+  .welcome-text {
+    width: 238px;
+    height: 30px;
+    font-size: 28px;
+    margin: 0px auto;
+    margin-left: 62px;
+  }
+  .welcome-des {
+    width: 300px;
+    height: 68px;
+    text-align: center;
+    font-size: 12px;
+    margin: 0px auto;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .images-team {
+    grid-template-areas:
+      "b"
+      "c"
+      "e"
+      "f";
+    width: 274.5px;
+    height: 1100px;
+    margin-left: 5px;
+  }
+  .cards-2 > img {
+    width: 280px;
+    height: 260px;
+    padding: 0px;
+    margin-left: -8px;
+  }
+  .cards-3 > img {
+    width: 280px;
+    height: 260px;
+    padding: 0px;
+    margin-left: -8px;
+  }
+  .cards-5 > img {
+    width: 280px;
+    height: 260px;
+    padding: 0px;
+    margin-left: -8px;
+  }
+  .cards-6 > img {
+    width: 280px;
+    height: 260px;
+    padding: 0px;
+    margin-left: -8px;
+  }
+  .main-text {
+    width: 248px;
+    height: 78px;
+    font-size: 58px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .main-text-des {
+    width: 305px;
+    height: 88px;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .get-text {
+    width: 170px;
+    height: 30px;
+    font-size: 27px;
+    margin-left: 2px;
+  }
+  .get-text1 {
+    width: 170px;
+    height: 30px;
+    font-size: 27px;
+    margin-left: 2px;
+  }
+  .get-text-des > li {
+    width: 140px;
+    height: 20px;
+    font-size: 18px;
+    margin-left: -40px;
+    margin-bottom: 20px;
+  }
+  .get-text-des1 > li {
+    width: 135px;
+    height: 20px;
+    font-size: 18px;
+    margin-left: -40px;
+    margin-top: 20px;
+  }
+  .footer-main {
+    flex-direction: column;
+  }
+  .footer-second-text {
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .all-footer {
+    width: 314.8px;
+    height: 950px;
+  }
+  .horizontal-line {
+    width: 280px;
+    margin-left: 18px;
+    margin-top: 145px;
+  }
+  .rights {
+    width: 310px;
+    height: 20px;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 40px;
+  }
+}

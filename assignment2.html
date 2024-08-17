@@ -4,11 +4,263 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="/styles/assign2.css" />
   </head>
   <body>
     <header>
-      <section></section>
+      <section class="background">
+        <nav class="display">
+          <div class="headername inter-normal-italic">
+            <h1>Fitness</h1>
+          </div>
+          <div class="navigation">
+            <a class="inter-small" href="#">Home</a>
+
+            <a class="inter-small" href="#">Service</a>
+            <a class="inter-small" href="#">Contact</a>
+            <a class="inter-small" href="#">About</a>
+          </div>
+        </nav>
+        <div class="hero-section">
+          <div class="texts">
+            <h1 class="big-texts inter-big">
+              Get body in <span class="custom-font">shape</span> & stay healthy
+            </h1>
+            <p class="description inter-small">
+              A huge selection of health and fitness content, healthy recipes
+              and transformation stories to help you get fit and stay fit!
+            </p>
+
+            <button class="click inter-medium" type="button">
+              Join Club Now!
+            </button>
+            <button class="click1 inter-medium" type="button">
+              Download APP
+            </button>
+          </div>
+          <div class="hero2">
+            <div class="card2">
+              <h1 class="number1 inter-big">500+</h1>
+              <p class="number1-des inter-small">Free Workout Videos</p>
+            </div>
+            <div class="card-flex">
+              <div class="circle"></div>
+              <div class="card1 inter-big">
+                <h1 class="number">350+</h1>
+                <p class="number-des inter-small">Video Tutorial</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="page2">
+        <div>
+          <h1 class="title inter-big">Change Your Habits</h1>
+          <p class="title-des inter-small">
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym.
+          </p>
+        </div>
+        <div class="image-flex">
+          <div class="image-1">
+            <img class="border" src="images/image 3.png" alt="Loading" />
+            <h1 class="image-head inter-medium">Movement</h1>
+            <p class="image-des inter-small">
+              We believe fitness should be accessible to everyone
+            </p>
+          </div>
+          <div class="image-1">
+            <img class="border" src="images/image 2.png" alt="Loading" />
+            <h1 class="image-head1 inter-medium">Time</h1>
+            <p class="image-des inter-small">
+              We believe fitness should be accessible to everyone
+            </p>
+          </div>
+          <div class="image-1">
+            <img class="border" src="images/image 4.png" alt="Loading" />
+            <h1 class="image-head2 inter-medium">Practice</h1>
+            <p class="image-des inter-small">
+              We believe fitness should be accessible to everyone
+            </p>
+          </div>
+          <div class="image-1">
+            <img class="border" src="images/image 5.png" alt="Loading" />
+            <h1 class="image-head3 inter-medium">Weight Loss</h1>
+            <p class="image-des1 inter-small">
+              We believe fitness should be accessible to everyone
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="page3">
+        <div class="page-flex">
+          <div class="texts">
+            <h1 class="big-text1 inter-big">Run an Extra Mile Easily</h1>
+            <p class="big-textdes inter-small">
+              We believe fitness should be accessible to everyone, everywhere,
+              regardless of income or access to a gym. With hundreds of
+              professional workouts.
+            </p>
+            <button class="join-now" type="button">Join Now</button>
+          </div>
+          <img class="run-radius" src="images/run.jpg" alt="Loading" />
+        </div>
+      </section>
+
+      <section class="page5">
+        <div>
+          <h1 class="training-texts1 inter-big">BMI Calculator</h1>
+          <p class="training-des1 inter-small">
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym.
+          </p>
+        </div>
+        <div class="whole-sec">
+          <div class="cal-text">
+            <h1 class="calculator-text inter-big">BMI Calculator Chart</h1>
+          </div>
+          <div class="bmi-calculator">
+            <div class="chart">
+              <div class="item inter-min"><span class="Row-1">BMI</span></div>
+              <div class="item inter-min">
+                <span class="Row-1">Weight Status</span>
+              </div>
+              <div class="item inter-small">Below 18.5</div>
+              <div class="item inter-small">18.5 - 24.9</div>
+              <div class="item inter-small">25.0 - 29.9</div>
+              <div class="item inter-small">30.0 - and Above</div>
+              <div class="item inter-small">Underweight</div>
+              <div class="item inter-small">Healthy</div>
+              <div class="item inter-small">Overweight</div>
+              <div class="item inter-small">Obese</div>
+            </div>
+
+            <div class="option-making">
+              <h1 class="second-calculation inter-big">Calculate your BMI</h1>
+              <p class="calculation-des inter-small training-des1">
+                We believe fitness should be accessible to everyone, everywhere,
+                regardless of income or access to a gym.
+              </p>
+              <div class="option">
+                <div class="h-w-flex inter-small">
+                  <input
+                    type="text"
+                    name="Height"
+                    id=""
+                    placeholder="Height/cm"
+                  />
+
+                  <input
+                    type="text"
+                    name="Height"
+                    id=""
+                    placeholder="Weight/kg"
+                  />
+                </div>
+                <div class="s-a-flex l">
+                  <input
+                    class="inter-small"
+                    type="text"
+                    name="age"
+                    id=""
+                    placeholder="Age"
+                  />
+
+                  <select class="inter-small" name="Sex" id="Sex">
+                    <option value="Sex">Sex</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                  </select>
+                </div>
+
+                <select class="activity" name="factory" id="factory">
+                  <option value="Select an activity factory">
+                    Select an activity factory
+                  </option>
+                  <option value="Leg pressing">Leg Pressing</option>
+                  <option value="push up">Push Up</option>
+                  <option value="Jogging">Jogging</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="page6">
+        <div class="member-text">
+          <h1 class="welcome-text inter-big">Meet Our Team</h1>
+          <p class="welcome-des inter-small">
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym.
+          </p>
+        </div>
+
+        <div class="images-team">
+          <div class="team-member cards-1">
+            <img src="images/trainer1.png" alt="Loading" />
+          </div>
+          <div class="team-member cards-2">
+            <img src="images/trainer2.png" alt="Loading" />
+          </div>
+          <div class="team-member cards-3">
+            <img src="images/trainer3.png" alt="Loading" />
+          </div>
+          <div class="team-member cards-4">
+            <img src="images/trainer4.png" alt="Loading" />
+          </div>
+          <div class="team-member cards-5">
+            <img src="images/trainer5.png" alt="Loading" />
+          </div>
+          <div class="team-member cards-6">
+            <img src="images/trainer6.png" alt="Loading" />
+          </div>
+        </div>
+      </section>
     </header>
+    <footer>
+      <div class="all-footer">
+        <div class="footer-main">
+          <div class="footer-text">
+            <h1 class="main-text inter-big-italic">Fitness</h1>
+            <p class="main-text-des inter-small">
+              We believe fitness should be accessible to everyone, everywhere,
+              regardless of income or access to a gym. With hundreds of
+              professional workouts.
+            </p>
+          </div>
+          <div class="footer-second-text">
+            <div class="get-started1">
+              <h1 class="get-text inter-seven">Get Started</h1>
+              <div class="li-style">
+                <ul class="get-text-des inter-small">
+                  <li>Service</li>
+                  <li>Contact Us</li>
+                  <li>Affiliate Program</li>
+                  <li>About Us</li>
+                </ul>
+              </div>
+            </div>
+            <div class="get-started2">
+              <h1 class="get-text1 inter-seven">Get Started</h1>
+              <ul class="get-text-des1 inter-small">
+                <li>Fitness</li>
+                <li>Platform</li>
+                <li>Workout Library</li>
+                <li>App Design</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="horizontal-line"></div>
+        <h1 class="rights inter-small">All right reserved @Fitness 2024</h1>
+      </div>
+    </footer>
   </body>
 </html>

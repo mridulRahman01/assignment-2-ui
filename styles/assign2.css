@@ -261,7 +261,7 @@ a:hover {
   margin-left: 20px;
 }
 .hero2 {
-  background: url("/images/Images\ 2.png");
+  background: url("../images/Images2.png");
   background-repeat: no-repeat;
   width: 349px;
   height: 580px;

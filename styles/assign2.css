@@ -70,6 +70,7 @@ body {
     rgba(119, 119, 119, 0) 100%
   );
   margin-bottom: 100px;
+  margin-top: -20px;
 }
 .display {
   display: flex;
@@ -915,6 +916,7 @@ select > option {
       rgba(119, 119, 119, 0) 100%
     );
     margin-bottom: 100px;
+    margin-top: -20px;
   }
   .headername {
     width: 132px;

@@ -10,6 +10,13 @@
       href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <link rel="stylesheet" href="./styles/assign2.css" />
   </head>
@@ -19,6 +26,9 @@
         <nav class="display">
           <div class="headername inter-normal-italic">
             <h1>Fitness</h1>
+          </div>
+          <div class="hambar">
+            <i class="fa-solid fa-bars"></i>
           </div>
           <div class="navigation">
             <a class="inter-small" href="#">Home</a>
@@ -37,13 +47,14 @@
               A huge selection of health and fitness content, healthy recipes
               and transformation stories to help you get fit and stay fit!
             </p>
-
-            <button class="click inter-medium" type="button">
-              Join Club Now!
-            </button>
-            <button class="click1 inter-medium" type="button">
-              Download APP
-            </button>
+            <div class="btn-join">
+              <button class="click inter-medium" type="button">
+                Join Club Now!
+              </button>
+              <button class="click1 inter-medium" type="button">
+                Download APP
+              </button>
+            </div>
           </div>
           <div class="hero2">
             <div class="card2">
@@ -191,6 +202,9 @@
                   <option value="push up">Push Up</option>
                   <option value="Jogging">Jogging</option>
                 </select>
+                <button class="calculate click inter-medium" type="button">
+                  Calculate
+                </button>
               </div>
             </div>
           </div>
